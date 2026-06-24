@@ -1,1 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Mel's English & Finds</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Pacifico&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Quicksand',sans-serif;
+background:#fff8fb;
+color:#5c4b51;
+overflow-x:hidden;
+}
+
+.hero{
+padding:80px 20px;
+text-align:center;
+position:relative;
+}
+
+.logo{
+font-size:4rem;
+font-family:'Pacifico',cursive;
+color:#ff8fb1;
+}
+
+.subtitle{
+font-size:1.2rem;
+margin-top:15px;
+}
+
+.tagline{
+margin-top:10px;
+color:#8c7480;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:14px 30px;
+background:#ffb6c1;
+border-radius:50px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+.section{
+max-width:1100px;
+margin:auto;
+padding:70px 20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:25px;
+box-shadow:0 5px 15px rgba(255,182,193,.25);
+}
+
+.section-title{
+font-size:2rem;
+text-align:center;
+margin-bottom:40px;
+color:#ff8fb1;
+}
+
+.word-card{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+align-items:center;
+justify-content:center;
+}
+
+.word{
+font-size:3rem;
+font-weight:700;
+color:#ff8fb1;
+}
+
+.meaning{
+max-width:400px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.product{
+background:white;
+border-radius:25px;
+padding:20px;
+text-align:center;
+box-shadow:0 5px 15px rgba(255,182,193,.2);
+}
+
+.product img{
+width:100%;
+border-radius:15px;
+}
+
+.product h3{
+margin-top:15px;
+}
+
+.product a{
+display:inline-block;
+margin-top:15px;
+padding:10px 20px;
+background:#ffc2d1;
+color:white;
+text-decoration:none;
+border-radius:30px;
+}
+
+.learn-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.learn-box{
+background:white;
+padding:25px;
+border-radius:25px;
+box-shadow:0 5px 15px rgba(255,182,193,.2);
+}
+
+.footer{
+text-align:center;
+padding:60px 20px;
+}
+
+.socials a{
+text-decoration:none;
+font-size:1.8rem;
+margin:0 10px;
+}
+
+.doodle{
+position:absolute;
+font-size:2rem;
+opacity:.8;
+}
+
+.star{
+top:50px;
+left:10%;
+}
+
+.strawberry{
+right:10%;
+top:80px;
+}
+
+.heart{
+bottom:40px;
+left:15%;
+}
+
+.bow{
+bottom:80px;
+right:15%;
+}
+
+@media(max-width:768px){
+
+.logo{
+font-size:3rem;
+}
+
+.word{
+font-size:2rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="doodle star">⭐</div>
+<div class="doodle strawberry">🍓</div>
+<div class="doodle heart">💖</div>
+<div class="doodle bow">🎀</div>
+
+<h1 class="logo">Mel's English & Finds</h1>
+
+<p class="subtitle">
+Learning English one word and one cute find at a time ✨
+</p>
+
+<p class="tagline">
+ESL Teacher • Affiliate Creator • Product Reviewer
+</p>
+
+<a href="#finds" class="btn">Shop My Favorites</a>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">
+🍓 Word of the Week
+</h2>
+
+<div class="card word-card">
+
+<div>
+<div class="word">Pigmented</div>
+<p>/ˈpɪɡ.mən.tɪd/</p>
+</div>
+
+<div class="meaning">
+<strong>Meaning:</strong>
+Rich in color.
+
+<br><br>
+
+<strong>Example:</strong>
+This blush is highly pigmented.
+</div>
+
+</div>
+
+</section>
+
+<section class="section" id="finds">
+
+<h2 class="section-title">
+💄 My Favorite Finds
+</h2>
+
+<div class="products">
+
+<div class="product">
+<img src="https://via.placeholder.com/300x300.png?text=Blush">
+<h3>Beauty Finds</h3>
+<p>Makeup, skincare, and more.</p>
+<a href="#">Shop Here</a>
+</div>
+
+<div class="product">
+<img src="https://via.placeholder.com/300x300.png?text=Shoes">
+<h3>Fashion Finds</h3>
+<p>Cute and affordable shoes.</p>
+<a href="#">Shop Here</a>
+</div>
+
+<div class="product">
+<img src="https://via.placeholder.com/300x300.png?text=Desk">
+<h3>Study Desk Finds</h3>
+<p>Useful tools and stationery.</p>
+<a href="#">Shop Here</a>
+</div>
+
+<div class="product">
+<img src="https://via.placeholder.com/300x300.png?text=Essentials">
+<h3>Daily Essentials</h3>
+<p>Items I use every day.</p>
+<a href="#">Shop Here</a>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">
+📚 Learn English With Me
+</h2>
+
+<div class="learn-grid">
+
+<div class="learn-box">
+<h3>🎤 Pronunciation Tips</h3>
+<p>Improve your English speaking skills.</p>
+</div>
+
+<div class="learn-box">
+<h3>📖 Vocabulary Lessons</h3>
+<p>Learn practical words every week.</p>
+</div>
+
+<div class="learn-box">
+<h3>💬 Native Expressions</h3>
+<p>Sound more natural in English conversations.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="footer">
+
+<h2>💌 Let's Connect</h2>
+
+<br>
+
+<div class="socials">
+
+<a href="#">📱</a>
+<a href="#">📸</a>
+<a href="#">🎥</a>
+
+</div>
+
+<br>
+
+<p>
+Made with 💖 by Mel
+</p>
+
+<p>
+🍓 Learn English • Shop Cute Finds • Grow Together
+</p>
+
+</section>
+
+</body>
+</html>
